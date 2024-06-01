@@ -57,7 +57,7 @@ public class Profile extends AuditableAbstractAggregateRoot<Profile> {
         return email.address();
     }
 
-    public String getAddress(){
+    public String getStreetAddress(){
         return address.getStreetAddress();
     }
 }
